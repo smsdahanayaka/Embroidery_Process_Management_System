@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2021, 3:51:19 AM
+    Author     : Prabudha
+*/
+
+/*Login page css*/
+*{
+    margin: 0;
+    padding: 0;    
+    
+}
+body{
+    background: radial-gradient(white, #A5A1A0);
+}
+/*.bg_image{
+    position: absolute;
+}*/
+
+.main{
+    margin-bottom: 8% !important;
+    margin-top: 2% !important;
+}
+
+.main_from{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.login_btn {
+    /*  //font-family: arial;*/
+    color: #FFFFFF !important;
+    font-size: 13px !important;
+    text-shadow: 0px 0px 0px #0A0E12 !important;
+    box-shadow: 0px 0px 0px #BEE2F9 !important;
+    padding: 7px 17px !important;
+    border-radius: 22px;
+    border: 0px solid #000000 !important;
+    background: #4B4847 !important;
+}
+.login_btn:hover {
+    color: #FFFFFF !important;
+    background: #89716B !important;
+}
+.inp_back {   
+    border-top: 2px solid #89716B !important;
+}
+.btn_position{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;  
+}

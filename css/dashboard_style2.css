@@ -1,0 +1,84 @@
+.actives2:hover{
+    background: #e3f4ff !important;    
+    /*    color: #fff !important ;*/
+
+} 
+.actives3:hover{
+    background: #3DB2FF  !important;    
+    /*    color: #fff !important ;*/
+
+} 
+a:link {
+    color: none;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color:none;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: none;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:active {
+    color: none;
+    background-color: none;
+    text-decoration: none;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative !important;
+    display: inline-block !important;
+    border-bottom: 1px dotted black !important; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden !important;
+    width: 120px !important;
+    background-color: #555 !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 5px 0 !important;
+    border-radius: 6px !important;
+
+    /* Position the tooltip text */
+    position: absolute !important;
+    z-index: 1 !important;
+    bottom: 125% !important;
+    left: 50% !important;
+    margin-left: -60px !important;
+
+    /* Fade in tooltip */
+    opacity: 0 !important;
+    transition: opacity 0.3s !important;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "" !important;
+    position: absolute !important
+        top: 100% !important;
+    left: 50% !important;
+    margin-left: -5px !important;
+    border-width: 5px !important;
+    border-style: solid !important;
+    border-color: #555 transparent transparent transparent !important;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.addButtonBackground:hover{
+    background: #3297F87  !important;    
+    /*    color: #fff !important ;*/
+
+} 

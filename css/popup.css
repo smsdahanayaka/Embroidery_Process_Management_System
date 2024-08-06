@@ -1,0 +1,408 @@
+
+
+.hero {
+    background-image: url("http://richardmiddleton.me/modal-hero.jpg");
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonpop {
+    background-color: #1686d9;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+.buttonpop:hover {
+    background-color: white;
+    color: #1686d9;
+    border: 2px solid #1686d9;
+}
+
+.card-container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*bg model 1 stat here*/
+
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents {
+    margin-right: 50px;
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close:hover {
+    color: #666;
+}
+/*bgomdel 1 end here*/
+
+
+/*Bg model 2*/
+.bg-modal2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents2 {
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close2 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close2:hover {
+    color: #666;
+}
+/*bg model2 end*/
+
+
+/*bg model 3 start here*/
+.bg-modal3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents3 {
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close3 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close3:hover {
+    color: #666;}
+/*bg model 3 end here*/
+
+/*bg model 4start here*/
+
+.bg-modal4 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents4 {
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close4 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close4:hover {
+    color: #666;}
+/*bg model 4 end here*/
+
+/*bg model 5 Start here*/
+
+.bg-modal5 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents5 {
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close5 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close5:hover {
+    color: #666;}
+/*bg model 5 end here*/
+
+/*bg model 6 Start here*/
+.bg-modal6 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents6 {
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close6 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close6:hover {
+    color: #666;}
+/*bg model 6 end here*/
+
+/*bg model 7 Start here*/
+.bg-modal7 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents7 {
+    margin-right: 50px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close7 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close7:hover {
+    color: #666;}
+
+/*bg model 7 end here*/
+
+/*bg model 8 Start here*/
+.bg-modal8 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents8 {
+    margin-right: 50px;
+    height: 350px;
+    width: 550px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close8 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close8:hover {
+    color: #666;}
+
+/*bg model 8 end here*/
+
+/*bg model 9 Start here*/
+.bg-modal9 {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    /*  width: 83%;
+      height: 90%;*/
+    margin-right: 100%;
+    width: 100%;
+    height: 100%;
+    /*  position: absolute;*/
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents9 {
+    margin-right: 50px;
+    height: 350px;
+    width: 550px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+.close9 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close9:hover {
+    color: #666;}
+
+/*bg model 9 end here*/
